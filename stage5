@@ -6,6 +6,6 @@ sudo rm -rf /home/developer/apache-jmeter-5.2
 
 lsb_release -a
 sleep 10
-echo "AND WE ARE DONE!"
+echo "AND WE ARE DONE"
 rm -rf stage5
 

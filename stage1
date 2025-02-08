@@ -2,3 +2,5 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt full-upgrade -y
 sudo apt autoremove -y
+
+echo "OK STAGE 2 GOOD TO GO"

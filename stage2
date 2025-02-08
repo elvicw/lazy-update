@@ -1,7 +1,7 @@
 rm -rf stage1
 lsb_release -a 
 echo "sleeping for 15 seconds"
-echo "let's proceed to stage 2"
+echo "lets proceed to stage 2"
 
 sudo sed -i 's/stretch/buster/g' /etc/apt/sources.list
 sudo rm -f /etc/apt/sources.list.d/*
