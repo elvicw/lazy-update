@@ -2,5 +2,6 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt full-upgrade -y
 sudo apt autoremove -y
-
-rm -rf stage1
+echo "downloading stage2"
+wget https://github.com/elvicw/lazy-update/raw/refs/heads/main/stage2
+chmod +x stage2
