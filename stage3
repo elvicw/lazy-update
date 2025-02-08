@@ -1,0 +1,17 @@
+rm -rf stage2
+lsb_release -a 
+echo "sleeping for 15 seconds"
+echo "let's proceed to stage 3"
+
+sudo sed -i 's/buster/bullseye/g' /etc/apt/sources.list
+
+sudo apt update
+sudo apt upgrade -y
+sudo apt full-upgrade -y
+sudo apt autoremove -y
+
+echo "downloading stage4"
+wget https://github.com/elvicw/lazy-update/raw/refs/heads/main/stage4
+chmod +x stage4
+
+sudo reboot
