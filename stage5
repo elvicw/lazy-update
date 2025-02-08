@@ -8,3 +8,4 @@ lsb_release -a
 sleep 10
 echo "AND WE ARE DONE!"
 rm -rf stage5
+
