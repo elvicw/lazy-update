@@ -12,7 +12,7 @@ sudo apt full-upgrade -y
 sudo apt autoremove -y
 
 echo "downloading stage3"
-wget https://github.com/elvicw/lazy-update/raw/refs/heads/main/stage3
+wget https://raw.githubusercontent.com/elvicw/lazy-update/refs/heads/main/stage3
 chmod +x stage3
 
 sudo reboot

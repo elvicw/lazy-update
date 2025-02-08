@@ -11,7 +11,7 @@ sudo apt full-upgrade -y
 sudo apt autoremove -y
 
 echo "downloading stage4"
-wget https://github.com/elvicw/lazy-update/raw/refs/heads/main/stage4
+wget https://raw.githubusercontent.com/elvicw/lazy-update/refs/heads/main/stage4
 chmod +x stage4
 
 sudo reboot
